@@ -1,0 +1,84 @@
+/* Reset some default styling */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body background and text styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* About section styles */
+#about {
+    background-color: white;
+    padding: 2em;
+}
+
+/* Projects section styles */
+#projects {
+    background-color: #f0f0f0;
+    padding: 2em;
+}
+
+.project {
+    background-color: white;
+    padding: 1em;
+    margin-bottom: 1em;
+    border: 1px solid #ddd;
+}
+
+/* Contact section styles */
+#contact {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 2em;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: white;
+}
+/* Add this to your existing styles.css */
+.resume-link {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.resume-link:hover {
+    background-color: #555;
+}
